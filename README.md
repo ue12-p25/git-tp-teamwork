@@ -21,7 +21,7 @@ pour l'évaluation de votre travail on tiendra compte entre autres 
 
 ### Résultat attendu :
 
-* le meneur a créé un dépôt sur github, sous le nom `devoir-git`, c'est-à-dire donc en pratique sous un nom comme `https://github.com/lemeneur/devoir-git`
+* le meneur a créé un dépôt sur github, sous le nom `git-homework`, c'est-à-dire donc en pratique sous un nom comme `https://github.com/lemeneur/git-homework`
 * ce dépôt contient un seul commit avec un seul fichier `README.md`, dont le contenu est **produit** par le code Python suivant
 
 ```python
@@ -37,28 +37,13 @@ for i in range(1, how_many_people + 1):
     print(f"{i:02d} github:")
 ```
 
-### Indices
-
-Il y a principalement deux stratégies possibles pour cette première étape :
-
-* stratégie #1
-  * on crée un dépôt local avec `git init`
-  * on le remplit (on y crée un commit)
-  * on crée un **dépôt vide** sur github (c'est-à-dire **sans** le `README`)
-  * et on pousse le dépôt local sur github;
-
-* stratégie #2
-  * on commence par créer le dépôt sur github **avec** le `README.md`
-  * et ensuite on peut le cloner localement
-
-
 ## Étape 2 - droits d'accès - (toujours à faire par le meneur)
 
 Dans cette étape le meneur donne les droits en écriture aux membres de son groupe.
 
 ### Indice
 
-Depuis la page projet, allez dans l'onglet `Settings`, puis `Manage Access`.
+Depuis la page projet, allez dans l'onglet `Settings`, puis `Collaborators`.
 
 ## Étape 3 - clonage chez tout le monde
 
@@ -66,7 +51,7 @@ Ceux qui n'ont pas ce dépôt sur leur ordinateur personnel le clônent depuis g
 
 ### Indice
 
-Le bouton vert `Code` dans la page du projet sur github.
+Le bouton vert `Code` dans la page du projet sur github ![](the-code-button.png)
 
 ## Étape 4 - modification locale du *NOM*
 
