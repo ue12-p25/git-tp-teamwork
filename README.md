@@ -49,9 +49,9 @@ Depuis la page projet, allez dans l'onglet `Settings`, puis `Collaborators`.
 
 Ceux qui n'ont pas ce dépôt sur leur ordinateur personnel le clônent depuis github.
 
-### Indice
-
+```{admonition} Indice
 Le bouton vert `Code` dans la page du projet sur github ![](the-code-button.png)
+```
 
 ## Étape 4 - modification locale du *NOM*
 
@@ -60,20 +60,23 @@ Chacun crée localement un commit avec ce changement dans le fichier.
 
 Assurez-vous que le commit contient bien votre nom (dans la rubrique `Author` de `git log`) pour que l'on puisse vous accorder les points lors de l'évaluation.
 
-### Indice
+```{admonition} Indice
 
 Pour utiliser correctement votre nom et votre email lors de création des commits, regardez du côté de
 
 * `git config --global user.name` et
 * `git config --global user.email`.
+```
 
 ## Étape 5 - tout le monde pousse
 
 Chacun pousse son commit dans le dépôt sur github; dans cette étape, arrangez-vous pour que ce soit **le meneur qui pousse son commit en premier**.
 
-### Indice
+```{admonition} Indices
 
-Si vous avez des soucis pour pousser votre commit, revoyez dans le cours [le notebook sur le push](https://nbhosting.inria.fr/auditor/notebook/ue12-p21-git/notebooks/2-02-synchro-push).
+* Utilisez la commande `git push` pour envoyer vos commits sur le dépôt distant.
+* Si vous avez des soucis pour pousser votre commit, revoyez dans le cours [le notebook sur le push](https://git.info-mines.paris/synchro-push-nb/).
+```
 
 ## Étape 6 - tout le monde tire
 
@@ -89,9 +92,9 @@ Et vous créez un commit, comme à l'étape 4.
 
 Comme à l'étape 5, sauf que cette fois ce **n'est pas le meneur qui pousse en premier**.
 
-### Indice
-
+```{admonition} Indice
 Le même qu'à l'étape 5
+```
 
 ## Étape 9 - le groupe publie son dépôt
 
